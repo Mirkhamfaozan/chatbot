@@ -1,0 +1,55 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+     "responses": ["Halo!", "Hai", "Halo, ada yang bisa saya bantu?", "Halo selamat datang", "Hai Kawan"]
+    },
+    {"tag": "bye",
+     "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!"]
+    },
+    {"tag": "nama",
+     "patterns": ["nama kamu siapa?", "lu siapa?", "siapa sih lo?", "lu sape ?", "nama lo sape dah ?", "nama?"],
+     "responses": ["Namaku Ngopy, salam kenal kak!", "Halo, aku Ngopy!", "Kenalin, aku NgoPy!"]
+    },
+    {"tag": "pekerjaan",
+     "patterns": ["lu ngapain?", "pekerjaan kamu apa?", "lu kerja apa?", "tugas kamu apa?", "tugas lo ngapain?"],
+     "responses": ["Aku bantu kak Rizky dalam mengelola ", "Tugasku jadi asisten di Website ini"]
+    },
+    {"tag": "komunitas",
+     "patterns": ["kalau mau tanya-tanya kemana ya?", "ada komunitasnya ga?", "ada grupnya ga?", "grup nya apa?", "kalau mau nanya Colormatch kemana ya?", "bisa bantu Color pada logo ga?", "bisa bantuin warnain?"],
+     "responses": ["Langsung aja join ke telegram komunitas colormatch", "Boleh join kesini kak"]
+    },
+    {"tag": "pewarnaan",
+     "patterns": ["jika merah dikombinasikan hitam apakah cocok?", "apakah warna putih dengan merah cocok?", "Jika biru dengan hijau apakah tidak gelap?"],
+     "responses": ["merah plus hitam menghasilkan warna yang gelap", "putih dengan merah cocok gelap dan cerah", "jika biru dengan hijau menghasilkan warna terlalu gelap"]
+    },
+    {"tag": "kemampuan",
+     "patterns": ["kamu bisa apa?", "apa yang bisa anda lakukan?", "kamu bisa ngapain aja?", "lo bisa ngapain?", "apa kemampuan lo?"],
+     "responses": ["Kakak bisa tanya-tanya nama aku, apa yang aku lakukan dan yang berhubungan dengan Color Matcing", "Pokoknya yang berhubungan sama Color kak :)"]
+    },
+    {"tag": "dasar",
+     "patterns": ["Apa saja warna dasar dalam model warna?"],
+     "responses": ["Cyan, Magenta, Yellow", "Yellow, Cyan, Magenta", "Magenta, Cyan, Yellow"]
+    },
+    {"tag": "web",
+     "patterns": ["Apa fitur dalam web ini?"],
+     "responses": ["Color matching", "upload logo/gambar", "image generating", "download kaos", "memisahkan desain kaos dengan logo"]
+    },
+    {"tag": "sapa",
+     "patterns": ["Hello?"],
+     "responses": ["Hello, ada yang dapat kami bantu?", "Hello, ada apa kak?", "Hello, ada perlu apa ya kak?"]
+    },
+    {"tag": "skema",
+     "patterns": ["Bagaimana cara memilih skema warna yang menarik?"],
+     "responses": ["Gunakan warna dominan bisa untuk latar belakang kaos, sementara warna aksen bisa digunakan untuk logo"]
+    },
+    {"tag": "logo",
+     "patterns": ["Bagaimana dengan ukuran logo atau teks di kaos?"],
+     "responses": ["logo atau teks cukup besar untuk terlihat jelas", "logo terlihat jelas", "kualitas logo bagus"]
+    },
+    {"tag": "kustomisasi",
+     "patterns": ["Apakah variasi kustomisasi bisa disesuaikan oleh pengguna?"],
+     "responses": ["bisa", "sangat bisa", "tentu bisa"]
+    }
+]
+}
